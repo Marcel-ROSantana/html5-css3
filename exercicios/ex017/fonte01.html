@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in (polegadas), px, pt (ponto), pc (paicas) 
+            
+            Medidas Relativas
+            em (relativo a letra M maiúscula), ex (relativo a letra x minúscula), rem, vw, vh, %
+
+            16px geralmente = 1em (tamanho padrão)
+
+            Recomendação oficial: px e em
+            */
+            font-size: 1em;
+            text-align: justify;
+        }
+
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h2 {
+            /* shorthand font
+               - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 2em 'Franklin Gothic Medium', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptates error tenetur eveniet quasi voluptate quas repudiandae. Nesciunt autem ea dolore adipisci quisquam, porro, exercitationem repudiandae ab, velit molestias fugiat! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde perferendis, ratione voluptates odit deleniti est. Libero fugit impedit tempora voluptate reiciendis harum, exercitationem molestiae dolor possimus! Delectus eveniet deserunt explicabo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, beatae quae in est mollitia obcaecati veritatis non exercitationem, reiciendis sunt consectetur et quia hic. Illum quo nam expedita quae perferendis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quo inventore ducimus necessitatibus, in illum aut officiis eum minima recusandae, deleniti eos, repellendus quisquam veniam similique atque accusamus soluta earum.</p>
+
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rem consequuntur libero magni voluptatibus excepturi repellendus quae dicta, eligendi ipsa deserunt eaque porro tempore architecto iste, expedita praesentium consequatur. Ipsam.</p>
+</body>
+</html>
