@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        .container {
+            background-color: lightgrey;
+
+            display: flex;
+            /* 
+            Visualização padrão, se não configurar nada vai aparecer assim
+            flex-direction: row; 
+            flex-wrap: nowrap;
+            */ 
+            /*
+            Substituído pelo flex-flow (shorthand)
+            flex-direction: row-reverse; 
+            flex-wrap: wrap-reverse;
+            */
+            flex-flow: row wrap-reverse;
+        }
+
+        .item {
+            color: white;
+            background-color: rgb(83, 83, 83);
+            border: 1px solid white;
+            text-align: center;
+
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <!-- PAI -->
+        <div class="item">Exemplo de Bloco A</div>
+        <div class="item">Exemplo de Bloco B</div>
+        <div class="item">Exemplo de Bloco C</div>
+        <div class="item">Exemplo de Bloco D</div>
+        <div class="item">Exemplo de Bloco E</div>
+        <div class="item">Exemplo de Bloco F</div>
+        <div class="item">Exemplo de Bloco G</div>
+    </div>
+</body>
+</html>
