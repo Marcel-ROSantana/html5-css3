@@ -42,7 +42,14 @@ html5-css3/
 ├── .gitattributes # Configurações Git
 └── _config.yml # (Para GitHub Pages, se necessário)
 
---
+---
+
+## 🚀 Como usar / executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Marcel-ROSantana/html5-css3.git
+
 
 <a href="https://marcel-rosantana.github.io/html5-css3/">Página</a>
 
