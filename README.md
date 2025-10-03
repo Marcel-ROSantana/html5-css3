@@ -1,31 +1,39 @@
 # html5-css3
 
-Repositório com os exercícios, desafios e arquivos do **Curso de HTML5 e CSS3** do CursoemVídeo, mantido por Marcel‑ROSantana.  
-Atualmente o curso possui 5 módulos e o repositório está no módulo 4. :contentReference[oaicite:0]{index=0}
+Repositório com os exercícios, desafios e arquivos do **Curso de HTML5 e CSS3** do [CursoemVídeo](https://www.cursoemvideo.com/), mantido por **Marcel‑ROSantana**.
+
+Atualmente, o curso está sendo acompanhado até o módulo 4.  
+Este repositório serve como material de estudo e prática dos conceitos aprendidos.
 
 ---
 
 ## 🧾 Índice
 
-- [Sobre](#sobre)  
-- [Estrutura do repositório](#estrutura-do-repositório)  
-- [Como usar / executar](#como-usar--executar)  
-- [Desafios e Exercícios](#desafios-e-exercícios)  
-- [Licença](#licença)  
-- [Autor / Contato](#autor--contato)
+- [📘 Sobre](#-sobre)
+- [📁 Estrutura do repositório](#-estrutura-do-repositório)
+- [🚀 Como usar / executar](#-como-usar--executar)
+- [🧠 Desafios e Exercícios](#-desafios-e-exercícios)
+- [📄 Licença](#-licença)
+- [👤 Autor / Contato](#-autor--contato)
 
 ---
 
-## Sobre
+## 📘 Sobre
 
-Este projeto reúne o conteúdo prático do curso de HTML5 e CSS3 do CursoemVídeo: código-fonte, exemplos, desafios e exercícios para fixação. :contentReference[oaicite:1]{index=1}  
-O objetivo é servir tanto como repositório de estudo quanto portfólio de projetos front-end simples.
+Este projeto contém o conteúdo prático do curso de HTML5 e CSS3 do professor **Gustavo Guanabara**, incluindo:
+
+- Exercícios resolvidos
+- Desafios propostos
+- Códigos explicativos
+- Material de apoio
+
+Objetivo: fixar os conhecimentos de **HTML5** e **CSS3**, praticando com exemplos reais.
 
 ---
 
-## Estrutura do repositório
+## 📁 Estrutura do repositório
 
-A estrutura básica do repositório é a seguinte:
+
 
 
 
