@@ -33,9 +33,16 @@ Objetivo: fixar os conhecimentos de **HTML5** e **CSS3**, praticando com exemplo
 
 ## 📁 Estrutura do repositório
 
+html5-css3/
+│
+├── desafios/ # Desafios propostos no curso
+├── exercicios/ # Exercícios resolvidos durante as aulas
+├── LICENSE # Licença MIT
+├── README.md # Este arquivo
+├── .gitattributes # Configurações Git
+└── _config.yml # (Para GitHub Pages, se necessário)
 
-
-
+--
 
 <a href="https://marcel-rosantana.github.io/html5-css3/">Página</a>
 
