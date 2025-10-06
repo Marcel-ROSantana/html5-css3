@@ -30,6 +30,10 @@ Objetivo: fixar os conhecimentos de **HTML5** e **CSS3**, praticando com exemplo
 
 ## 🧠 Exemplos de Páginas / Desafios
 
-<a href="https://marcel-rosantana.github.io/html5-css3/">Página</a>
-
 <a href="https://marcel-rosantana.github.io/html5-css3/defafios/d010/index.html" target="_blank">Desafio 10</a>
+
+<a href="https://marcel-rosantana.github.io/projeto-cordel/" target="_blank">Projeto Cordel</a>
+
+<a href="https://marcel-rosantana.github.io/projeto-social/" target="_blank">Projeto Social</a>
+
+<a href="https://marcel-rosantana.github.io/projeto-login/" target="_blank">Projeto Login</a>
