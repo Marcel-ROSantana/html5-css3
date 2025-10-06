@@ -2,7 +2,7 @@
 
 Repositório com os exercícios, desafios e arquivos do **Curso de HTML5 e CSS3** do [CursoemVídeo](https://www.cursoemvideo.com/), mantido por **Marcel‑ROSantana**.
 
-Atualmente, o curso está sendo acompanhado até o módulo 4.  
+O curso possui 5 módulos principais.  
 Este repositório serve como material de estudo e prática dos conceitos aprendidos.
 
 ---
@@ -10,10 +10,7 @@ Este repositório serve como material de estudo e prática dos conceitos aprendi
 ## 🧾 Índice
 
 - [📘 Sobre](#-sobre)
-- [📁 Estrutura do repositório](#-estrutura-do-repositório)
-- [🚀 Como usar / executar](#-como-usar--executar)
 - [🧠 Desafios e Exercícios](#-desafios-e-exercícios)
-- [📄 Licença](#-licença)
 - [👤 Autor / Contato](#-autor--contato)
 
 ---
@@ -31,25 +28,7 @@ Objetivo: fixar os conhecimentos de **HTML5** e **CSS3**, praticando com exemplo
 
 ---
 
-## 📁 Estrutura do repositório
-
-html5-css3/
-│
-├── desafios/ # Desafios propostos no curso
-├── exercicios/ # Exercícios resolvidos durante as aulas
-├── LICENSE # Licença MIT
-├── README.md # Este arquivo
-├── .gitattributes # Configurações Git
-└── _config.yml # (Para GitHub Pages, se necessário)
-
----
-
-## 🚀 Como usar / executar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/Marcel-ROSantana/html5-css3.git
-
+## 🧠 Exemplos de Páginas / Desafios
 
 <a href="https://marcel-rosantana.github.io/html5-css3/">Página</a>
 
