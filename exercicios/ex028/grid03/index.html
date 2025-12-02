@@ -7,26 +7,28 @@
     <style>
         .container {
             border: 3px solid blue;
-            height: 310px;
+            /* height: 310px; */
             
             /* Propriedade de grid explícito */
             display: grid;
-            /* grid-template-rows: 100px 100px 100px; ou repeat(3, 100px)
-               grid-template-columns: auto auto auto; ou repeat(3, auto) */
-            grid-template: 100px 100px 100px / auto auto auto; /* ou repeat(3, 100px)/repeat(3, auto) */
+            grid-template-rows: repeat(3, 80px);
+            grid-template-columns: 100px 40% repeat(2, 1fr); /* ou repeat(3, 120px) */
+            /* grid-template: 100px 100px 100px / auto auto auto; ou repeat(3, 100px)/repeat(3, auto) */
             gap: 5px; /* substituiu o grid-gap */
 
             /* align-items: normal;     
-               justify-items: normal; */
-            place-items: start center;
+            justify-items: normal; */ 
+            place-items: normal normal;
 
-            /* align-content: normal;    start, center, end, space-between, space-evenly e space-around 
-               justify-content: normal;  start, center, end, space-between, space-evenly e space-around */
-            place-content: space-between end;   
+            /* align-content: normal;    start, center, end, space-between, space-evenly e space-around */
+            /* justify-content: normal;  start, center, end, space-between, space-evenly e space-around */
+            place-content: normal normal;   
 
-            /* Propriedade de grid implícito */
-            grid-auto-rows: 100px; 
-            grid-auto-columns: 100px;
+            /* Propriedade de grid implícito, para novos items fora do grid */
+            grid-auto-rows: 80px; 
+            grid-auto-columns: 120px;
+
+            /* grid-auto-flow: row ou column; */
         }
 
         .item {
@@ -46,7 +48,7 @@
         <div class="item">G</div>
         <div class="item">H</div>
         <div class="item">I</div>
-        <!-- <div class="item">J</div> -->
+        <div class="item">J</div>
     </div>
 </body>
 </html>

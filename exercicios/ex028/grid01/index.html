@@ -11,18 +11,18 @@
             
             /* Propriedade de grid explícito */
             display: grid;
-            /* grid-template-rows: 100px 100px 100px; ou repeat(3, 100px)
-               grid-template-columns: auto auto auto; ou repeat(3, auto) */
-            grid-template: 100px 100px 100px / auto auto auto; /* ou repeat(3, 100px)/repeat(3, auto) */
+            grid-template-rows: 100px 100px 100px; /* ou repeat(3, 100px)*/
+            grid-template-columns: auto auto auto; /* ou repeat(3, auto) */
+            /* grid-template: 100px 100px 100px / auto auto auto; ou repeat(3, 100px)/repeat(3, auto) */
             gap: 5px; /* substituiu o grid-gap */
 
-            /* align-items: normal;     
-               justify-items: normal; */
-            place-items: normal normal;
+            align-items: normal;     
+            justify-items: normal; 
+            /* place-items: normal normal; */
 
-            /* align-content: normal;    start, center, end, space-between, space-evenly e space-around 
-               justify-content: normal;  start, center, end, space-between, space-evenly e space-around */
-            place-content: normal normal;   
+            align-content: normal;    /* start, center, end, space-between, space-evenly e space-around */
+            justify-content: normal;  /* start, center, end, space-between, space-evenly e space-around */
+            /* place-content: normal normal; */   
 
             /* Propriedade de grid implícito */
             grid-auto-rows: 100px; 
